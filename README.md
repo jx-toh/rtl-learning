@@ -119,5 +119,5 @@ PASS: credit=0 after cancel
 
 ## Author
 
-[Your Name] — Mechatronics Engineering student learning RTL design
+Toh Jia Xuan — Mechatronics Engineering student learning RTL design
 and semiconductor verification.
