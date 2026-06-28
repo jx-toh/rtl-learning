@@ -1,0 +1,324 @@
+$date
+	Sun Jun 28 11:41:27 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_top $end
+$var wire 3 ! segments [2:0] $end
+$var wire 1 " dispense $end
+$var reg 1 # cancel $end
+$var reg 1 $ clk $end
+$var reg 1 % coin $end
+$var reg 1 & rst $end
+$scope module u_top $end
+$var wire 1 # cancel $end
+$var wire 1 $ clk $end
+$var wire 1 % coin $end
+$var wire 1 & rst $end
+$var wire 3 ' segments [2:0] $end
+$var wire 1 " dispense $end
+$var wire 2 ( credit_wire [1:0] $end
+$var parameter 32 ) COINS_NEEDED $end
+$var parameter 32 * SEGMENTS $end
+$scope module u_display $end
+$var wire 2 + credit [1:0] $end
+$var parameter 32 , SEGMENTS $end
+$var reg 3 - segments [2:0] $end
+$upscope $end
+$scope module u_vending $end
+$var wire 1 # cancel $end
+$var wire 1 $ clk $end
+$var wire 1 % coin $end
+$var wire 1 & rst $end
+$var wire 1 . busy $end
+$var parameter 32 / COINS_NEEDED $end
+$var parameter 2 0 IDLE $end
+$var parameter 2 1 ONE $end
+$var parameter 2 2 TWO $end
+$var reg 2 3 credit [1:0] $end
+$var reg 2 4 current_state [1:0] $end
+$var reg 1 " dispense $end
+$var reg 2 5 next_state [1:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b10 2
+b1 1
+b0 0
+b10 /
+b11 ,
+b11 *
+b10 )
+$end
+#0
+$dumpvars
+b0 5
+b0 4
+b0 3
+0.
+b0 -
+b0 +
+b0 (
+b0 '
+1&
+0%
+0$
+0#
+0"
+b0 !
+$end
+#5
+1$
+#10
+0$
+#15
+1$
+#20
+0$
+0&
+#25
+1$
+#30
+b1 5
+0$
+1%
+#35
+b1 !
+b1 '
+b1 -
+b1 (
+b1 +
+b1 3
+b10 5
+1.
+b1 4
+1$
+#40
+b1 5
+0$
+0%
+#45
+1$
+#50
+0$
+#55
+1$
+#60
+b10 5
+0$
+1%
+#65
+b10 !
+b10 '
+b10 -
+b10 (
+b10 +
+b10 3
+1"
+b0 5
+b10 4
+1$
+#70
+0$
+0%
+#75
+b0 !
+b0 '
+b0 -
+0"
+b0 (
+b0 +
+b0 3
+0.
+b0 4
+1$
+#80
+0$
+#85
+1$
+#90
+0$
+#95
+1$
+#100
+b1 5
+0$
+1%
+#105
+b1 !
+b1 '
+b1 -
+b1 (
+b1 +
+b1 3
+b10 5
+1.
+b1 4
+1$
+#110
+b0 5
+0$
+1#
+#115
+b0 !
+b0 '
+b0 -
+b0 (
+b0 +
+b0 3
+0.
+b0 4
+1$
+#120
+0$
+0%
+0#
+#125
+1$
+#130
+0$
+#135
+1$
+#140
+0$
+#145
+1$
+#150
+0$
+#155
+1$
+#160
+0$
+1#
+#165
+1$
+#170
+0$
+0#
+#175
+1$
+#180
+0$
+#185
+1$
+#190
+0$
+#195
+1$
+#200
+b1 5
+0$
+1%
+#205
+b1 !
+b1 '
+b1 -
+b1 (
+b1 +
+b1 3
+b10 5
+1.
+b1 4
+1$
+#210
+0$
+#215
+b10 !
+b10 '
+b10 -
+1"
+b10 (
+b10 +
+b10 3
+b0 5
+b10 4
+1$
+#220
+0$
+0%
+#225
+b0 !
+b0 '
+b0 -
+b0 (
+b0 +
+b0 3
+0"
+0.
+b0 4
+1$
+#230
+0$
+#235
+1$
+#240
+0$
+#245
+1$
+#250
+0$
+#255
+1$
+#260
+b1 5
+0$
+1%
+#265
+b1 !
+b1 '
+b1 -
+b1 (
+b1 +
+b1 3
+b10 5
+1.
+b1 4
+1$
+#270
+b1 5
+0$
+0%
+#275
+1$
+#280
+b10 5
+0$
+1%
+#285
+b10 !
+b10 '
+b10 -
+b10 (
+b10 +
+b10 3
+1"
+b0 5
+b10 4
+1$
+#290
+0$
+0%
+#295
+b0 !
+b0 '
+b0 -
+0"
+b0 (
+b0 +
+b0 3
+0.
+b0 4
+1$
+#300
+0$
+#305
+1$
+#310
+0$
